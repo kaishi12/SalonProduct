@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module\Salon.Account\Salon.Account.Domain\Salon.Account.Domain.csproj" />
+    <ProjectReference Include="..\Module\Salon.Account\Salon.Account.Repository\Salon.Account.Repository.csproj" />
+    <ProjectReference Include="..\Module\Salon.Account\Salon.Account.Service\Salon.Account.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

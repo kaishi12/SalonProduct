@@ -1,0 +1,11 @@
+.vs/
+Module/Salon.Account/Salon.Account.Domain/obj/
+Module/Salon.Account/Salon.Account.Repository/bin/
+Infrastructure/Infras.Common/obj/
+Module/Salon.Account/Salon.Account.Domain/bin/
+Module/Salon.Account/Salon.Account.Service/bin/
+Module/Salon.Account/Salon.Account.Service/obj/
+SalonApi/bin/
+SalonApi/obj/
+Module/Salon.Account/Salon.Account.Repository/obj/
+Infrastructure/Infras.Common/bin/
